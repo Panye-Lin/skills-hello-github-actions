@@ -1,0 +1,27 @@
+trigger:
+  branches:
+    include:
+    - main
+  paths:
+    include:
+    - '**/requirements.txt'
+
+variables:
+- group: depscan-secrets
+
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      name: CyberOpsCollab/buildtemplates
+      ref: refs/heads/main  # or a tag, as recommended
+
+jobs:
+- job: RunDepCheck
+  displayName: Run and Publish Dependency Check Scan
+  pool:
+    name: ecm-agents
+    demands:
+      - DEPSCAN -equals true
+  steps:
+  - template: templates/run-dependency-check.yml@templates

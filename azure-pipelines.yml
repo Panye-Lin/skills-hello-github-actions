@@ -1,0 +1,62 @@
+trigger: none  # Manual or scheduled only
+
+variables:
+  - name: VENV_PATH
+    value: C:/agent/.venv-$(Build.Repository.Name)
+  - group: occ-splunk-secrets
+
+schedules:
+  - cron: "40 15 * * *"
+    displayName: Daily retrieval of Splunk data for Tier 0 Accounts
+    branches:
+      include:
+        - main
+    always: true
+    batch: true
+
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      name: CyberOpsCollab/buildtemplates
+      ref: refs/heads/main  # or a tag, as recommended
+
+jobs:
+  - job: RunSearchCommitTier0
+    displayName: Run Orchestrator Script
+    pool:
+      name: ecm-agents
+      demands:
+      - PYTHON -equals true
+      - JFCLI -equals true
+
+    steps:
+      - checkout: self
+        persistCredentials: true  # Critical for authentication
+        clean: true
+
+      - template: templates/git-user-settings.yml@templates
+      
+      - template: templates/python-venv-guard.yml@templates
+        parameters:
+          venvPath: C:/agent/.venv-$(Build.Repository.Name)
+          reqFile: $(Build.SourcesDirectory)\requirements.txt
+          pythonExe: C:/Program Files/Python/Python313/python.exe
+          jfrogConnection: 'jfrog-onprem'
+          jfrogRepo: 'ext-pypi'
+          virtualEnvActivation: 'call $(Build.SourcesDirectory)\.venv\Scripts\activate.bat'
+
+      - powershell: |
+          Write-Host "Activating pre-installed virtual environment"
+          $env:VENV_PATH = "C:\agent\venv"
+          Write-Host "Running get_tier_0.py"
+          & "$(VENV_PATH)\Scripts\python.exe" get_tier_0.py
+        displayName: Run Orchestrator Script
+        env:
+          SPLUNK_URL: $(SPLUNK_URL)
+          SPLUNK_TOKEN: $(SPLUNK_TOKEN)
+          SPLUNK_CA: $(SPLUNK_CA)
+
+      - template: templates/check-and-commit-changes.yml@templates
+        parameters:
+          commitMessage: "Update Tier 0 Accounts via Build $(Build.BuildNumber)"

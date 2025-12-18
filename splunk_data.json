@@ -1,0 +1,1753 @@
+[
+    {
+        "preview": false,
+        "offset": 0,
+        "result": {
+            "member": "CN=x Johan Huldtgren,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 1,
+        "result": {
+            "member": "CN=time.sync,CN=Users,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 2,
+        "result": {
+            "member": "CN=sv.symantec,OU=Service Accounts,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 3,
+        "result": {
+            "member": "CN=sv.storageauth,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 4,
+        "result": {
+            "member": "CN=sv.snow_ed_wmi,OU=Service Accounts,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 5,
+        "result": {
+            "member": "CN=sv.sccm2012_cia,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 6,
+        "result": {
+            "member": "CN=sv.sccm2012_admin,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 7,
+        "result": {
+            "member": "CN=sv.SiteScopeDev,OU=Service Accounts,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 8,
+        "result": {
+            "member": "CN=sv.ADManagerPlus,OU=Service Accounts,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 9,
+        "result": {
+            "member": "CN=gsv.ssoTasks,CN=Managed Service Accounts,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 10,
+        "result": {
+            "member": "CN=aa.OpsCenter02,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 11,
+        "result": {
+            "member": "CN=aa.OpsCenter01,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 12,
+        "result": {
+            "member": "CN=aa.DEVAdmin02,OU=Service Accounts,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 13,
+        "result": {
+            "member": "CN=aa.DEVAdmin01,OU=Service Accounts,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 14,
+        "result": {
+            "member": "CN=aa.COCAdmin02,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 15,
+        "result": {
+            "member": "CN=aa.COCAdmin01,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 16,
+        "result": {
+            "member": "CN=aa OpsCenter02,OU=Service Accounts,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 17,
+        "result": {
+            "member": "CN=aa OpsCenter01,OU=Service Accounts,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 18,
+        "result": {
+            "member": "CN=X Yan Feng,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 19,
+        "result": {
+            "member": "CN=X Yan Feng,OU=Service Admins,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins|Domain Controllers"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 20,
+        "result": {
+            "member": "CN=X William Jones,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 21,
+        "result": {
+            "member": "CN=X Sana Tareen,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 22,
+        "result": {
+            "member": "CN=X Robert1 Shepherd,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 23,
+        "result": {
+            "member": "CN=X Peter Yao,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 24,
+        "result": {
+            "member": "CN=X Montavius Carson,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 25,
+        "result": {
+            "member": "CN=X Mohamed Toure,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 26,
+        "result": {
+            "member": "CN=X Matthew Mueller,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 27,
+        "result": {
+            "member": "CN=X Masha Makovoz,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 28,
+        "result": {
+            "member": "CN=X Masha Makovoz,OU=Service Admins,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 29,
+        "result": {
+            "member": "CN=X Lonnie Vose,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 30,
+        "result": {
+            "member": "CN=X Kofi Du,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 31,
+        "result": {
+            "member": "CN=X Justin Brooks,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 32,
+        "result": {
+            "member": "CN=X James1 Ireland,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 33,
+        "result": {
+            "member": "CN=X James Stubbs,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 34,
+        "result": {
+            "member": "CN=X James Stubbs,OU=Service Admins,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 35,
+        "result": {
+            "member": "CN=X George Wangolo,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 36,
+        "result": {
+            "member": "CN=X David Allard,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 37,
+        "result": {
+            "member": "CN=X Comlan Anani,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 38,
+        "result": {
+            "member": "CN=X Comlan Anani,OU=Service Admins,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 39,
+        "result": {
+            "member": "CN=X Brittany Rouse,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 40,
+        "result": {
+            "member": "CN=X Brian Johns,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 41,
+        "result": {
+            "member": "CN=X Brian Johns,OU=Service Admins,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 42,
+        "result": {
+            "member": "CN=X Brian Craig,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 43,
+        "result": {
+            "member": "CN=X Barry Randolph,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 44,
+        "result": {
+            "member": "CN=X Barry Randolph,OU=Service Admins,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 45,
+        "result": {
+            "member": "CN=X Abbas Salimi,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 46,
+        "result": {
+            "member": "CN=ServerAdmin,CN=Managed Service Accounts,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 47,
+        "result": {
+            "member": "CN=SV.ssoscript,OU=Service Accounts,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "DnsAdmins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 48,
+        "result": {
+            "member": "CN=SV.Symantec,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 49,
+        "result": {
+            "member": "CN=SV.SW_SAM_POLL,OU=Service Accounts,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 50,
+        "result": {
+            "member": "CN=SV.STORAGEDPS,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 51,
+        "result": {
+            "member": "CN=SV.SSOTasks,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 52,
+        "result": {
+            "member": "CN=SV.SSOScript,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 53,
+        "result": {
+            "member": "CN=SV.SC2012_DAS,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 54,
+        "result": {
+            "member": "CN=SV.SC2012_AA,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 55,
+        "result": {
+            "member": "CN=SV.QUALYS,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 56,
+        "result": {
+            "member": "CN=SV pamtestwinadm,OU=Service Accounts,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 57,
+        "result": {
+            "member": "CN=SV SW_SAM_POLL,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 58,
+        "result": {
+            "member": "CN=SV SW_IPAM_POLL,OU=Service Accounts,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 59,
+        "result": {
+            "member": "CN=SV Qualys,OU=Service Accounts,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 60,
+        "result": {
+            "member": "CN=SV PAMWinAdmDev,OU=Service Accounts,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 61,
+        "result": {
+            "member": "CN=SV MEDIADPS,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 62,
+        "result": {
+            "member": "CN=SV CounterACTDev,OU=Service Accounts,OU=Admin,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 63,
+        "result": {
+            "member": "CN=Administrator,CN=Users,DC=dev,DC=occ,DC=treas,DC=gov",
+            "Domain": "DEV",
+            "membertype": "User",
+            "tier_0_groups": "Account Operators|Administrators|DnsAdmins|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 64,
+        "result": {
+            "member": "CN=x Johan Huldtgren,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 65,
+        "result": {
+            "member": "CN=sv.storageauth,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 66,
+        "result": {
+            "member": "CN=sv.snow_ep_wmi,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 67,
+        "result": {
+            "member": "CN=sv.sccm2012_cia,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 68,
+        "result": {
+            "member": "CN=sv.sccm2012_admin,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 69,
+        "result": {
+            "member": "CN=sv.CounterACT1,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 70,
+        "result": {
+            "member": "CN=sv.ADManagerPlus,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 71,
+        "result": {
+            "member": "CN=occfsgmsa,CN=Managed Service Accounts,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Enterprise Key Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 72,
+        "result": {
+            "member": "CN=gsv.ssoTasks,CN=Managed Service Accounts,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 73,
+        "result": {
+            "member": "CN=aa.OpsCenter02,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators|Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 74,
+        "result": {
+            "member": "CN=aa.OpsCenter01,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators|Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 75,
+        "result": {
+            "member": "CN=aa.COCAdmin02,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins|Enterprise Admins|Schema Admins|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 76,
+        "result": {
+            "member": "CN=aa.COCAdmin01,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins|Enterprise Admins|Schema Admins|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 77,
+        "result": {
+            "member": "CN=X Yan Feng,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 78,
+        "result": {
+            "member": "CN=X William Jones,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 79,
+        "result": {
+            "member": "CN=X Sana Tareen,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Account Operators|Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 80,
+        "result": {
+            "member": "CN=X Robert1 Shepherd,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Account Operators|Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 81,
+        "result": {
+            "member": "CN=X Montavius Carson,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 82,
+        "result": {
+            "member": "CN=X Mohamed Toure,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Account Operators|Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 83,
+        "result": {
+            "member": "CN=X Matthew Mueller,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 84,
+        "result": {
+            "member": "CN=X Masha Makovoz,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Domain Admins|Enterprise Admins|Schema Admins|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 85,
+        "result": {
+            "member": "CN=X Lonnie Vose,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 86,
+        "result": {
+            "member": "CN=X Kofi Du,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 87,
+        "result": {
+            "member": "CN=X Justin Brooks,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 88,
+        "result": {
+            "member": "CN=X Joseph Ford,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "DnsAdmins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 89,
+        "result": {
+            "member": "CN=X James1 Ireland,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 90,
+        "result": {
+            "member": "CN=X James Stubbs,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Account Operators|Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 91,
+        "result": {
+            "member": "CN=X George Wangolo,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 92,
+        "result": {
+            "member": "CN=X David Allard,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Account Operators|Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 93,
+        "result": {
+            "member": "CN=X Comlan Anani,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Domain Admins|Enterprise Admins|Schema Admins|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 94,
+        "result": {
+            "member": "CN=X Brittany Rouse,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Account Operators|Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 95,
+        "result": {
+            "member": "CN=X Brian Johns,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 96,
+        "result": {
+            "member": "CN=X Brian Craig,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 97,
+        "result": {
+            "member": "CN=X Barry Randolph,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 98,
+        "result": {
+            "member": "CN=X Abbas Salimi,OU=Service Admins,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Domain Admins|Enterprise Admins|Schema Admins|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 99,
+        "result": {
+            "member": "CN=ServerAdmin,CN=Managed Service Accounts,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins|Enterprise Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 100,
+        "result": {
+            "member": "CN=SWDREXHMBPV02,OU=2016 on 2016,OU=Exchange Servers,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Server",
+            "tier_0_groups": "Exchange Trusted Subsystem|Exchange Windows Permissions"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 101,
+        "result": {
+            "member": "CN=SWDREXHMBPV01,OU=2016 on 2016,OU=Exchange Servers,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Server",
+            "tier_0_groups": "Exchange Trusted Subsystem|Exchange Windows Permissions"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 102,
+        "result": {
+            "member": "CN=SV.Symantec,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 103,
+        "result": {
+            "member": "CN=SV.Slogic,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 104,
+        "result": {
+            "member": "CN=SV.SW_IPAM_POLL,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 105,
+        "result": {
+            "member": "CN=SV.STORAGEDPS,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 106,
+        "result": {
+            "member": "CN=SV.SSOTasks,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 107,
+        "result": {
+            "member": "CN=SV.SSOScript,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|DnsAdmins|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 108,
+        "result": {
+            "member": "CN=SV.SC2012_DAS,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 109,
+        "result": {
+            "member": "CN=SV.SC2012_AA,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 110,
+        "result": {
+            "member": "CN=SV.SAM Service,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 111,
+        "result": {
+            "member": "CN=SV.QUALYS,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 112,
+        "result": {
+            "member": "CN=SV.Exchange System-1,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|DnsAdmins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 113,
+        "result": {
+            "member": "CN=SV.EXCHBackup,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Backup Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 114,
+        "result": {
+            "member": "CN=SV SW_SAM_POLL,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 115,
+        "result": {
+            "member": "CN=SV PAMWinAdm,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 116,
+        "result": {
+            "member": "CN=SV MEDIADPS,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 117,
+        "result": {
+            "member": "CN=SV IAMPOLUI,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 118,
+        "result": {
+            "member": "CN=SV IAMAdminD,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 119,
+        "result": {
+            "member": "CN=SV IAMAdmin,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 120,
+        "result": {
+            "member": "CN=S-1-5-21-1491689520-1059478608-592522955-1479,CN=ForeignSecurityPrincipals,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Unknown",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 121,
+        "result": {
+            "member": "CN=OCC-DAG-03,OU=2016 on 2016,OU=Exchange Servers,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Server",
+            "tier_0_groups": "Exchange Trusted Subsystem|Exchange Windows Permissions"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 122,
+        "result": {
+            "member": "CN=HQDCSSOECAPV02O,OU=CA,OU=Win2k16 Servers,OU=OCC Servers,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Server",
+            "tier_0_groups": "Cert Publishers"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 123,
+        "result": {
+            "member": "CN=HQDCSSOECAPV02,OU=Win2k22 Servers,OU=OCC Servers,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Server",
+            "tier_0_groups": "Cert Publishers"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 124,
+        "result": {
+            "member": "CN=HQDCSSOECAPV01O,OU=CA,OU=Win2k16 Servers,OU=OCC Servers,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Server",
+            "tier_0_groups": "Cert Publishers"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 125,
+        "result": {
+            "member": "CN=HQDCSSOECAPV01,OU=CA,OU=Win2k22 Servers,OU=OCC Servers,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Server",
+            "tier_0_groups": "Cert Publishers"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 126,
+        "result": {
+            "member": "CN=HQDCEXHUBTPV01,OU=2016 on 2016,OU=Exchange Servers,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Server",
+            "tier_0_groups": "Exchange Trusted Subsystem|Exchange Windows Permissions"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 127,
+        "result": {
+            "member": "CN=HQDCEXHMBPV02,OU=2016 on 2016,OU=Exchange Servers,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Server",
+            "tier_0_groups": "Exchange Trusted Subsystem|Exchange Windows Permissions"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 128,
+        "result": {
+            "member": "CN=HQDCEXHMBPV01,OU=2016 on 2016,OU=Exchange Servers,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Server",
+            "tier_0_groups": "Exchange Trusted Subsystem|Exchange Windows Permissions"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 129,
+        "result": {
+            "member": "CN=CIRCPRODADMINS,OU=Global Groups,OU=HQ,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Group",
+            "tier_0_groups": "Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 130,
+        "result": {
+            "member": "CN=Administrator,OU=Service Accounts,OU=Admin,DC=occ,DC=treas,DC=gov",
+            "Domain": "COC",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 131,
+        "result": {
+            "member": "CN=sysadmin,CN=Users,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Domain Admins|Schema Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 132,
+        "result": {
+            "member": "CN=sv.symantec,OU=Service Accounts,OU=Admin,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators|Administrators|Backup Operators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 133,
+        "result": {
+            "member": "CN=sv.SCCM2012_cia,OU=Service Accounts,OU=Service Admin,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 134,
+        "result": {
+            "member": "CN=sv.SC2012_aa,OU=Service Accounts,OU=Service Admin,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 135,
+        "result": {
+            "member": "CN=sv.Qualys,OU=Service Accounts,OU=Service Admin,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 136,
+        "result": {
+            "member": "CN=sv.ADManagerPlus,OU=Service Accounts,OU=Admin,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 137,
+        "result": {
+            "member": "CN=aa.BNKAdmin02,OU=Service Accounts,OU=Admin,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 138,
+        "result": {
+            "member": "CN=aa.BNKAdmin01,OU=Service Accounts,OU=Admin,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 139,
+        "result": {
+            "member": "CN=aa OpsCenter02,OU=Service Accounts,OU=Admin,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators|Administrators|Backup Operators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 140,
+        "result": {
+            "member": "CN=aa OpsCenter01,OU=Service Accounts,OU=Admin,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "Service Account",
+            "tier_0_groups": "Account Operators|Administrators|Backup Operators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 141,
+        "result": {
+            "member": "CN=X Theodore Stewart,OU=Service Admins,OU=Admin,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "User",
+            "tier_0_groups": "Account Operators|Administrators|Backup Operators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 142,
+        "result": {
+            "member": "CN=X Mohamed Toure,OU=Service Admins,OU=Admin,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "User",
+            "tier_0_groups": "Account Operators|Administrators|Backup Operators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 143,
+        "result": {
+            "member": "CN=X Masha Makovoz,OU=Service Admins,OU=Admin,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Domain Admins|Enterprise Admins|Schema Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 144,
+        "result": {
+            "member": "CN=X Lonnie Vose,OU=Service Admins,OU=Admin,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 145,
+        "result": {
+            "member": "CN=X Kofi Du,OU=Service Admins,OU=Admin,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 146,
+        "result": {
+            "member": "CN=X James Stubbs,OU=Service Admins,OU=Admin,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "User",
+            "tier_0_groups": "Account Operators|Administrators|Backup Operators|Server Operators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 147,
+        "result": {
+            "member": "CN=X ComLan Anani,OU=Service Admins,OU=Admin,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Domain Admins|Enterprise Admins|Schema Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 148,
+        "result": {
+            "member": "CN=X Brian Johns,OU=Service Admins,OU=Admin,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 149,
+        "result": {
+            "member": "CN=X Barry Randolph,OU=Service Admins,OU=Admin,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 150,
+        "result": {
+            "member": "CN=SV.SSOScript,OU=Service Accounts,OU=Admin,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "Service Account",
+            "tier_0_groups": "DnsAdmins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 151,
+        "result": {
+            "member": "CN=SV CounterACTBankNet,OU=Service Accounts,OU=Admin,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 152,
+        "result": {
+            "member": "CN=DBAProdAdmins,CN=Users,DC=banknet,DC=gov",
+            "Domain": "BANKNET",
+            "membertype": "Group",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 153,
+        "result": {
+            "member": "CN=x makovoz masha,OU=Service Admins,OU=Admin,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Domain Admins|Enterprise Admins|Schema Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 154,
+        "result": {
+            "member": "CN=time sync,CN=Users,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 155,
+        "result": {
+            "member": "CN=sysadmin,CN=Users,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Domain Admins|Enterprise Admins|Schema Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 156,
+        "result": {
+            "member": "CN=sv.symantec,OU=Service Accounts,OU=Admin,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 157,
+        "result": {
+            "member": "CN=sv.SCCM2012_cia,OU=Service Accounts,OU=Admin,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 158,
+        "result": {
+            "member": "CN=sv.SC2012_aa,OU=Service Accounts,OU=Admin,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 159,
+        "result": {
+            "member": "CN=sv.ADManagerPlus,OU=Service Accounts,OU=Admin,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 160,
+        "result": {
+            "member": "CN=sv qualys,OU=Service Accounts,OU=Admin,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 161,
+        "result": {
+            "member": "CN=aa.BNDAdmin02,OU=Service Accounts,OU=Admin,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 162,
+        "result": {
+            "member": "CN=aa.BNDAdmin01,OU=Service Accounts,OU=Admin,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 163,
+        "result": {
+            "member": "CN=aa OpsCenter02,OU=Service Accounts,OU=Admin,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 164,
+        "result": {
+            "member": "CN=aa OpsCenter01,OU=Service Accounts,OU=Admin,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 165,
+        "result": {
+            "member": "CN=X Mohamed Toure,OU=Service Admins,OU=Admin,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 166,
+        "result": {
+            "member": "CN=X Lonnie Vose,OU=Service Admins,OU=Admin,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 167,
+        "result": {
+            "member": "CN=X Kofi Du,OU=Service Admins,OU=Admin,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 168,
+        "result": {
+            "member": "CN=X James Trikakis,OU=Service Admins,OU=Admin,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 169,
+        "result": {
+            "member": "CN=X James Stubbs,OU=Service Admins,OU=Admin,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 170,
+        "result": {
+            "member": "CN=X Comlan Anani,OU=Service Admins,OU=Admin,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators|Domain Admins|Enterprise Admins|Schema Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 171,
+        "result": {
+            "member": "CN=X Brian Craig,OU=Service Admins,OU=Admin,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 172,
+        "result": {
+            "member": "CN=X Barry Randolph,OU=Service Admins,OU=Admin,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "User",
+            "tier_0_groups": "Administrators"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 173,
+        "result": {
+            "member": "CN=SV.SSOScript,OU=Service Accounts,OU=Admin,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|DnsAdmins|Domain Admins"
+        }
+    },
+    {
+        "preview": false,
+        "offset": 174,
+        "lastrow": true,
+        "result": {
+            "member": "CN=SV.CounterACTBankDev,OU=Service Accounts,OU=Admin,DC=Bankdev,DC=occ,DC=treas,DC=gov",
+            "Domain": "BANKDEV",
+            "membertype": "Service Account",
+            "tier_0_groups": "Administrators|Domain Admins"
+        }
+    }
+]

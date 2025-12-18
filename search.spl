@@ -1,0 +1,59 @@
+| inputlookup ADAllGroupObjects.csv
+| search cn IN ({tier_0_names})
+| table Domain cn member
+| rex field=member max_match=0 "(?<member>.*DC=gov)"
+| mvexpand member
+| where isnotnull(member) AND member!=""
+| eval member=if(match(member, "^CN="), member, "CN=" + member)
+| eval membertype=case(
+    match(lower(member), "service accounts"), "Service Account",
+    match(lower(member), "group"), "Group", 
+    match(lower(member), "server"), "Server",
+    match(lower(member), "service admins"), "User",
+    match(lower(member), "admins"), "Group",
+    match(lower(member), "users"), "User",
+    1=1, "Unknown"
+)
+| eval level1_member=member, level1_type=membertype
+| lookup ADAllGroupObjects.csv distinguishedName as member OUTPUTNEW member as groupmembers
+| rex field=groupmembers max_match=0 "(?<groupmembers>.*DC=gov)"
+| mvexpand groupmembers
+| eval groupmembers=if(match(groupmembers, "^CN="), groupmembers, "CN=" + groupmembers)
+| eval groupmembertype=case(
+    match(lower(groupmembers), "service accounts"), "Service Account",
+    match(lower(groupmembers), "group"), "Group", 
+    match(lower(groupmembers), "server"), "Server",
+    match(lower(groupmembers), "service admins"), "User",
+    match(lower(groupmembers), "admins"), "Group",
+    match(lower(groupmembers), "users"), "User",
+    1=1, "Unknown"
+)
+| eval level2_member=groupmembers, level2_type=groupmembertype
+| lookup ADAllGroupObjects.csv distinguishedName as groupmembers OUTPUTNEW member as groupmembernested
+| rex field=groupmembernested max_match=0 "(?<groupmembernested>.*DC=gov)"
+| mvexpand groupmembernested
+| eval groupmembernested=if(match(groupmembernested, "^CN="), groupmembernested, "CN=" + groupmembernested)
+| eval groupmembernestedtype=case(
+    match(lower(groupmembernested), "service accounts"), "Service Account",
+    match(lower(groupmembernested), "group"), "Group", 
+    match(lower(groupmembernested), "server"), "Server",
+    match(lower(groupmembernested), "service admins"), "User",
+    match(lower(groupmembernested), "admins"), "Group",
+    match(lower(groupmembernested), "users"), "User",
+    1=1, "Unknown"
+)
+| eval level3_member=groupmembernested, level3_type=groupmembernestedtype
+| eval level3_type=if(level3_member=="CN=", null(), level3_type)
+| eval level2_type=if(level2_member=="CN=", null(), level2_type)
+| eval level1_type=if(level1_member=="CN=", null(), level1_type)
+| eval level3_member=if(level3_member=="CN=", null(), level3_member)
+| eval level2_member=if(level2_member=="CN=", null(), level2_member)
+| eval level1_member=if(level1_member=="CN=", null(), level1_member)
+| eval final_member=coalesce(level3_member, level2_member, level1_member)
+| eval final_membertype=coalesce(level3_type, level2_type, level1_type)
+| where isnotnull(final_member) AND final_member!=""
+| table Domain cn final_member final_membertype
+| rename final_member as member, final_membertype as membertype
+| stats values(cn) as tier_0_groups by member Domain membertype
+| eval tier_0_groups=mvjoin(tier_0_groups,"|")
+| sort 0 - Domain member
